@@ -1,1 +1,34 @@
 
+Para los siguientes problemas, considera que tienes la siguiente declaración:
+
+
+typedef struct{
+   int valor;
+   char palo;
+}Carta;
+
+1. Escribe una función que reciba un arreglo de cartas de una baraja inglesa, es decir de tipo Carta, 
+su tamaño y regrese la suma de estas. Si alguna carta es un A, la debe tomar con un valor de 1. (10 puntos)
+
+2. Escribe una función que reciba una arreglo de cartas, su tamaño y regrese la mayor. Considera que el A vale 1. (10 puntos)
+
+3. Escribe una función que reciba un arreglo con cartas de una baraja inglesa, su tamaño y muestre cada carta. 
+Las cartas con valor 1, 11, 12 y 13 deberán mostrar las letras A, J, Q y K respectivamente en lugar del valor. 
+Además del valor de la carta, debe mostrarse su palo. (10 puntos)
+
+4. Escribe una función que reciba un arreglo de cartas de una baraja inglesa y su tamaño y lo llene con todas 
+las cartas que tiene una baraja inglesa. (10 puntos)
+
+5. Escribe una función que reciba un arreglo de cartas de una baraja inglesa y su tamaño y cambie el orden de 
+las cartas a uno aleatorio haciendo la función de mezclar o barajar un mazo de cartas. (10 puntos)
+
+6. Escribe un programa que muestre el siguiente menú y realice las operaciones indicadas mientras no se seleccione 
+la opción de salida. Cuando se selecciona una opción que no está en el menú, debe mostrar un mensaje de error y 
+volver a pedir la opción. El programa deberá utilizar las funciones que se escribieron en los incisos anteriores. (50 puntos)
+        Menu
+   1. Crear mazo de cartas y mezclarlo.
+   2. Extraer 5 una mano de 5 cartas.
+   3. Mostrar la mano de cartas.
+   4. Mostrar la carta más alta de la mano.
+   5. Mostrar la suma de las cartas de la mano.
+   6. Terminar el programa.
